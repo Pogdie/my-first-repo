@@ -2,8 +2,8 @@
 
 struct ad {
   int watchedAds{};
-  int clickedAdsPercentage{};
-  int averageEarnings{};
+  double clickedAdsPercentage{};
+  double averageEarnings{};
 };
 
 ad getAdInfo() {
@@ -19,10 +19,10 @@ ad getAdInfo() {
 
 void printAdInfo(const ad &ad) {
   std::cout << "\nWatched ads: " << ad.watchedAds << '\n';
-  std::cout << "Clidked ads percentage: " << ad.clickedAdsPercentage << '\n';
+  std::cout << "Clicked ads percentage: " << ad.clickedAdsPercentage << '\n';
   std::cout << "Avarege earnings: " << ad.averageEarnings << '\n';
 
-  double totalEarnings{ad.watchedAds * (ad.clickedAdsPercentage / 100.0) *
+  double totalEarnings{ad.watchedAds * (ad.clickedAdsPercentage / 100) *
                        ad.averageEarnings};
   std::cout << "total earnings: " << totalEarnings << '\n';
 }
