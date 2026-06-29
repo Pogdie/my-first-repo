@@ -1,2 +1,2 @@
 # my-first-repo
-my first repo please dont judge
+my first repo please dont judge me
