@@ -9,13 +9,9 @@ public:
     return;
   }
 
-  Ball() : Ball{"Black", 10} {}
-
   Ball(double radius) : Ball{"Black", radius} {}
 
-  Ball(std::string_view color) : Ball{color, 10} {}
-
-  Ball(std::string_view color, double radius)
+  Ball(std::string_view color = "Black", double radius = 10)
       : m_color{color}, m_radius{radius} {
     print();
   }
