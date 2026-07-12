@@ -4,4 +4,4 @@ I'll be doing here some cpp coding and idk.
 But please don't judge me, as i said before I'm new to programming and code in general.  
 
 ## What am i gonna do in this repo
-In this repo ill upload just my source code of exercise programs mostly cpp programs.
+In this repo i'll upload just my source code of exercise programs mostly cpp programs.
